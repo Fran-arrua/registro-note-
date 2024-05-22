@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#box{
+    height: 256px;
+    width: 256px;
+    background-color: rgba(0, 74, 134, 0.836);
+    border-radius: 16px;
+    margin: 0 auto;
+    padding: 24px;
+    box-shadow: 0 0 30px ;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(0, 44, 80, 0.904);
+}
+
+#title{
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#label {
+    margin-bottom: 35px;
+}
